@@ -1,4 +1,4 @@
-
+#https://atcoder.jp/contests/abc191/tasks/abc191_b
 
 N,X = (int(x) for x in input().split())
 
