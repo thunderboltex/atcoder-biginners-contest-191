@@ -23,6 +23,8 @@ def count(x, y, r):
 
 X, Y, R = map(float,input().split()) 
 
+
+#10000倍することで発生する誤差を修正
 X = round(X * 10000)
 Y = round(Y * 10000)
 R = round(R * 10000)
