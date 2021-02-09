@@ -1,4 +1,4 @@
-
+#https://atcoder.jp/contests/abc191/tasks/abc191_a
 
 V,T,S,D = (int(x) for x in input().split())
 
