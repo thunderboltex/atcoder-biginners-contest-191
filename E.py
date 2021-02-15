@@ -35,4 +35,4 @@ for j in range(N):
 
                 heapq.heappush(hq, (dist[k], k))
 
-print(-1 if dist[i] == float('inf') else dist[i])
+    print(-1 if dist[j] == float('inf') else dist[j])
