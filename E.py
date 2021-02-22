@@ -11,7 +11,7 @@ for i in range(M):
     B -= 1
 
     route[A][B] = min(C, route[A].get(B, float('inf')))
-
+#ダイクストラ法
 for j in range(N):
     hq = [(0, j)]
 
